@@ -1,0 +1,33 @@
+#tutorial-list 
+{
+    display: flex;
+    flex-direction: column;
+}
+  
+.list-group-item 
+{
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item.active
+{
+    background-color: #333;
+    border-color: #333;
+}
+
+.list-group-item > *
+{
+    margin: 0px 5px;
+}
+  
+.spacer 
+{
+    flex-grow: 1;
+}
+
+.btn-icon
+{
+    padding: 5px 7px;
+    padding-top: 0;
+}
